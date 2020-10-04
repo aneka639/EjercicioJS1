@@ -6,8 +6,6 @@ let medioPago = prompt("Seleccione su método de pago: \n1- Efectivo. \n2- Débi
 let valorIVA = montoTotal*0.215;
 let SinIVA = montoTotal-valorIVA;
 let recargo = montoTotal*0.05;
-//let totalRecargo = montoTotal+recargo;
-//let valorCuota = montoTotal/cuotas;
 
 if (medioPago==1) {
     alert(" Importe sin IVA: $" + SinIVA + "\n Monto IVA: $" + valorIVA + "\n TOTAL: $" + montoTotal);
