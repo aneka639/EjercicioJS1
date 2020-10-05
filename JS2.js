@@ -10,9 +10,9 @@ let recargo = montoTotal*0.05;
 if (medioPago==1) {
     alert(" Importe sin IVA: $" + SinIVA + "\n Monto IVA: $" + valorIVA + "\n TOTAL: $" + montoTotal);
 }
-let totalRecargo = montoTotal+recargo;
 
 if (medioPago==2) {
+    let totalRecargo = montoTotal+recargo;
     alert(" Importe sin IVA: $" + SinIVA + "\n Monto IVA: $" + valorIVA + "\nRecargo del 5%: $" + recargo + "\nTotal: $" + totalRecargo)
 }
 if (medioPago==3) {
