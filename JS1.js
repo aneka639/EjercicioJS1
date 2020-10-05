@@ -2,9 +2,10 @@ let montoTotal = prompt("Ingrese el monto Total");
 let valorIVA = montoTotal*0.215;
 alert("El valor de IVA es: $" + valorIVA);
 let sinIVA = montoTotal-valorIVA;
-let avanzar = confirm("¿Quieres ver el resumen de tu compra?");
-if(true){
-    alert(" Importe sin IVA: $" + sinIVA + "\n Monto IVA: $" + valorIVA + "\n TOTAL: $" + montoTotal) } 
+let verResumen = confirm("¿Quieres ver el resumen de tu compra?");
+if(verResumen){
+    alert(" Importe sin IVA: $" + sinIVA + "\n Monto IVA: $" + valorIVA + "\n TOTAL: $" + montoTotal) }
+ 
 
     /*problema 1:
 Teniendo en cuenta que el porcentaje de iva para una venta es de 21.5%
