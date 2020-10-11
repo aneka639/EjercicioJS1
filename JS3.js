@@ -1,16 +1,49 @@
-var array = ['Pedro', 'Marcelo', 'Tomas', 'Ana', 'Giuiana', 'asdfasfds', 'asdsadf'];
-let cantidad= length
-
-for ()
 
 
-(var i=0;i<7;i++) 
-        (i)
-        (nombreArray)[i]
-    )
 
-function nombreArray (nombre) {
-    
-    alert = ("Este es el nombre " + nombre);
+
+
+/* function validarIngresoPorPantalla(mensaje) {
+
+    let input;
+
+
+    do {
+
+        input = prompt(mensaje); // '1' 
+
+    // true cuando NO es numero. - false cuando es numero.
+    } while(isNaN(input))
+
+    return input;
 
 }
+ */
+
+//EJEMPLO DE WHILE
+/* let condicion = false;
+while(condicion) {
+    condicion = confirm("¿querés seguir?");
+    alert("alert del while");
+} */
+
+
+// EJERCICIO PARA PRACTICAR FOR:
+/* let iteraciones = prompt("Ingrese cuantas veces quiere mostrar el alert")
+for(let i = 0; i < iteraciones; i++) {
+    let temp = i;
+        if(i == 3 || i == 4) {
+            continue
+        }
+    alert("Esta es la vez número " + (++temp) + " que se muestra");
+    let salir = confirm("¿queres salir del bucle?");
+    if(salir)
+         break;
+ }        */      
+
+/* let montoTotal = prompt("Ingrese el monto TOTAL");
+let iva = montoTotal*0.215;
+
+
+let valorIva = montoTotal+iva;
+ */
