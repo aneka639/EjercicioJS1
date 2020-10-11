@@ -11,13 +11,17 @@ for(let i = 0; i < cantidadVentas; i++) {
     alert("Debe abonar $" + iva + " en concepto de IVA.");
     confirm("¿Quiere ver el resumen?");
         if(confirm) {
-            alert("Importe sin IVA: $" + montoIngresado + "\nMonto IVA: $" + iva + "\nImporte TOTAL: $" + importeTotal);            
+            alert("Importe sin IVA: $" + montoIngresado + "\nMonto IVA: $" + iva + "\nImporte TOTAL: $" + importeTotal);  
         }
     let salir = confirm("¿queres salir del programa?");
-    if(salir)
+    if(salir){
         alert("Fin del programa.")
          break;
+    }
  }
+
+ // intenté ponerle un ELSE para que al no querer ver el resumen, continúe con la siguiente venta y no pude.
+ // intenté ponerle un ELSE para que al preguntar salir del programa vuelva al inicio y no pude.
 
 
 
