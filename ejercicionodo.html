@@ -4,15 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ejercicio</title>
+    <style>
+        .internalDiv img {
+            height: 250px;
+        }
+        span{
+            color: blue;
+            font-size: 20px;
+        }
+        .classFoto{
+            height: 200px;
+        }
+        .divInterno{
+            height: 200px;
+        }
+    </style>
 </head>
 <body>
     <h1>documento html</h1>
     <div>
 
-        <button type="button" onclick="funcionJavascript()">Botón</button>
+        <button type="button" onclick="funcionJavascript()">Botón 1</button>
+    </div>
+    <div>
+        <button type="button" onclick="imgJavascript()">Botón 2</button>
     </div>
 
     <div id="idDiv2">
+        <div class="internalDiv">
+            <img src="elfo.jpg" alt="elfo mujer">
+        </div>
 
     </div>
 
